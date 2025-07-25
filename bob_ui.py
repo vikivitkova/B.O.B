@@ -8,6 +8,11 @@ import pandas as pd
 import numpy as np
 import joblib
 import py3Dmol
+import gzip
+import pickle
+
+with gzip.open("bond_model.pkl.gz", "rb") as f:
+    model = pickle.load(f)
 
 # --- Load model and encoders ---
 model = joblib.load("bond_model.pkl")
