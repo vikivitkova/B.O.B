@@ -1,0 +1,7 @@
+streamlit
+rdkit-pypi==2022.9.5
+py3Dmol
+pandas
+numpy
+joblib
+pubchempy
